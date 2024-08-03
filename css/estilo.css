@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    height: auto;
+}
